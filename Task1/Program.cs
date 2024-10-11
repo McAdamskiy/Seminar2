@@ -11,7 +11,7 @@ public class Answer
 
     static public void Main(){
         Console.Write("a= ");
-        int a = Convert.ToInt32(Console.Read());
+        int a = Convert.ToInt32(Console.ReadLine());
         Checking(a);
     }
 }
